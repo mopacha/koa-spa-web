@@ -1,0 +1,53 @@
+$loginColor: #8c7dea;
+.color-main {
+	color: $loginColor;
+}
+.login-form-layout {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 360px;
+	margin: 140px auto;
+	border-top: 10px solid $loginColor;
+}
+.login-title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.login-center-layout {
+	background: $loginColor;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 200px;
+}
+
+#animation {
+	animation: changeColor 5s infinite step-end;
+}
+
+.el-button--primary {
+	background-color: $loginColor;
+	border-color: $loginColor;
+}
+@keyframes changeColor {
+	0% {
+		color: red;
+	}
+	20% {
+		color: yellow;
+	}
+	40% {
+		color: blue;
+	}
+	60% {
+		color: green;
+	}
+	80% {
+		color: purple;
+	}
+	100% {
+		color: gold;
+	}
+}
