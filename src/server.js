@@ -1,2 +1,2 @@
-const koafy = require('@coofy/koafy')
+const koafy = require('@coofy/bastet')
 koafy.start()

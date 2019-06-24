@@ -5,7 +5,7 @@ import Layout from '../layout'
 Vue.use(Router)
 const loadView = view => {
   return () =>
-		import(/* webpackChunkName: "demo[index]" */ `../page/${view}.vue`)
+		import(/* webpackChunkName: "test[index]" */ `../page/${view}.vue`)
 }
 
 const routes = [

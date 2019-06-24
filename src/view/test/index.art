@@ -1,0 +1,11 @@
+{{extend '../layout/default.art'}}
+{{block 'title'}}test{{/block}}
+{{block 'styles'}}<link rel="stylesheet" href="{{@staticUrl}}/test.css">{{/block}}
+{{block 'scripts'}}<script type="text/javascript" src="{{@staticUrl}}/test.js"></script>{{/block}}
+
+{{block 'body'}}
+<script type="text/javascript" src="{{@staticUrl}}/runtime-test.js"></script>
+<div id="app"></div>
+{{/block}}
+
+

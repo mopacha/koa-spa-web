@@ -1,6 +1,6 @@
 
 
-const { Get, Controller } = require('@coofy/koafy').router
+const { Get, Controller } = require('@coofy/bastet').router
 
 @Controller('/hs')
 class HealthController {

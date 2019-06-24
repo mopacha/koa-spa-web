@@ -1,11 +1,11 @@
 const { Get, Controller } = require('@coofy/bastet').router
 
-@Controller('/demo')
+@Controller('/test')
 class DemoController {
 	@Get('/')
   async demo(ctx, _next) {
-    const title = 'demo'
-    await ctx.render('demo/index', {
+    const title = 'test'
+    await ctx.render('test/index', {
       title
     })
   }

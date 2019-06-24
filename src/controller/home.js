@@ -1,5 +1,5 @@
 const DemoService = require('../service/demo-service')
-const { Get, Post, Controller } = require('@coofy/koafy').router
+const { Get, Post, Controller } = require('@coofy/bastet').router
 
 @Controller('/')
 class HomeController {
