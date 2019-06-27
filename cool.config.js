@@ -1,10 +1,8 @@
 const path = require('path')
-const config = require('@coofy/config')
 
 module.exports = {
   preset: 'vue',
   webpack: function (config) {
-
     config.entry['demo'] = ['./src/static/apps/demo/app.js']
     config.entry['test'] = ['./src/static/apps/test/app.js']
     
@@ -12,8 +10,7 @@ module.exports = {
     return config
   },
   devServer: {
-    hot: false,
-    port: 8086,
-    publicPath: `${config.staticDomain}${config.staticContextPath}`
+    hot: true,
+    port: 8086
   }
 }

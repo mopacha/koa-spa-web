@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "cool start | npm run devServer",
+    "start": " npm run dev",
+    "dev": "cross-env NODE_ENV=development PORT=3000 babel-node ./src/server.js",
     "static": "cool start",
-    "devServer": "cross-env NODE_ENV=development PORT=3000 nodemon --watch src/ --watch config --ignore src/static --exec babel-node ./src/server.js",
     "build": "cross-env NODE_ENV=production cool build",
     "server": "pm2 start process.json",
     "stop": "pm2 delete cool-web"
@@ -15,7 +15,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@coofy/asker": "^1.0.5",
-    "@coofy/bastet": "0.0.5",
+    "@coofy/bastet": "0.1.0",
     "@coofy/config": "^1.0.0",
     "@coofy/env": "^1.0.0",
     "@coofy/resource-optimizer": "^1.0.13",
