@@ -33,7 +33,7 @@
     "@coofy/http": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
-    "element-ui": "2.7.2",
+    "element-ui": "^2.7.2",
     "eslint": "^5.8.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-config-vue": "^2.0.2",
