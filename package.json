@@ -1,19 +1,19 @@
 {
-  "name": "cool-web",
-  "version": "1.0.0",
+  "name": "koa-spa-web",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "start": " npm run dev",
     "dev": "cross-env NODE_ENV=development PORT=3000 babel-node ./src/server.js",
     "build": "cross-env NODE_ENV=production cool build",
     "server": "pm2 start process.json",
-    "stop": "pm2 delete cool-web"
+    "stop": "pm2 delete koa-spa-web"
   },
   "author": "mopacha@163.com",
   "license": "ISC",
   "dependencies": {
     "@coofy/asker": "^1.0.5",
-    "@coofy/bastet": "0.1.7",
+    "@coofy/bastet": "0.1.8",
     "@coofy/config": "^1.0.0",
     "@coofy/env": "^1.0.0",
     "@coofy/resource-optimizer": "^1.0.13",

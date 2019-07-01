@@ -3,9 +3,9 @@ module.exports = {
     out: {
       type: 'console'
     },
-    cool: {
+    'koa-spa': {
       type: 'dateFile',
-      filename: `logs/cool-web`,
+      filename: `logs/koa-spa-web`,
       pattern: '-yyyy-MM-dd.log',
       alwaysIncludePattern: true,
       backups: 5,
@@ -15,8 +15,8 @@ module.exports = {
   },
   categories: {
     default: {
-      appenders: ['cool', 'out'],
-      level: 'debug'
+      appenders: ['koa-spa', 'out'],
+      level: 'error'
     }
   },
   pm2: true,

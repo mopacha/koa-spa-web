@@ -9,7 +9,7 @@ server/view/release
 
 # Log files
 logs/
-cool-logs/
+koa-spa-logs/
 npm-debug.log*
 
 # Editor directories and files

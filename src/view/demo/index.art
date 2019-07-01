@@ -1,5 +1,5 @@
 {{extend '../layout/default.art'}}
-{{block 'title'}}cool{{/block}}
+{{block 'title'}}koa-spa{{/block}}
 {{block 'styles'}}<link rel="stylesheet" href="{{@staticUrl}}/demo.css">{{/block}}
 {{block 'scripts'}}<script type="text/javascript" src="{{@staticUrl}}/demo.js"></script>{{/block}}
 

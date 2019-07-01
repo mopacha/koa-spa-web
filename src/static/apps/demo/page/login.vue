@@ -12,7 +12,7 @@
                 :h="40"
                 id="animation"></icon>
         </div>
-        <h2 class="login-title color-main">cool-web</h2>
+        <h2 class="login-title color-main">koa-spa-web</h2>
         <el-form-item prop="username">
           <el-input name="username"
                     type="text"

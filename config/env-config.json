@@ -1,5 +1,5 @@
 {
-	"APP_NAME": "cool-web",
+	"APP_NAME": "koa-spa-web",
 	"STATIC_HOST_URL": "http://cool.cdn.com",
 	"STATIC_CONTEXT_PATH": "/cool-static",
 	"DOMO_APP_URL": "http://coolApp.api.com"

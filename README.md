@@ -1,4 +1,4 @@
-#cool-web
+#koa-spa-web
 ### 开发
 
 - Node: >=8
@@ -6,7 +6,7 @@
 #### 安装依赖
 
 
-#cool-web
+#koa-spa-web
 ```
 npm install
 ```
@@ -36,8 +36,8 @@ run `./release.sh` will generate the deploy directory
 
 	├── build
 	│   ├── deploy
-	│   │   ├── cool-static.zip // static resource
-	│   │   ├── cool-node.zip  //node 
+	│   │   ├── koa-spa-static.zip // static resource
+	│   │   ├── koa-spa-node.zip  //node 
 
 
 ####  运行
